@@ -1,6 +1,7 @@
-## 2025-01-05 - Found Unoptimized PNGs
-**Learning:** The repository contains several large PNG files (e.g., `Ninjago/Slithra/Slithra Head.png` ~516K) that are not optimized. `optipng` can significantly reduce their size without losing quality.
-**Action:** Run `optipng -o7` on large assets to improve download speeds and reduce repository size.
-## 2025-12-31 - [Asset Optimization]
-**Learning:** This repository consists entirely of static assets with no build system. Performance gains come exclusively from optimizing these assets (e.g., lossless PNG compression) rather than code changes.
-**Action:** Use tools like `optipng` to reduce file sizes without quality loss. Handle filenames with spaces carefully in shell commands.
+## 2024-05-23 - Image Optimization Strategy
+**Learning:** Optimizing single, small assets (like individual minifigures) is often a micro-optimization with negligible impact.
+**Action:** Prioritize shared, high-impact assets (e.g., headers, backgrounds) or batch optimizations of larger files to demonstrate measurable value. Always verify if the file is already optimized using `optipng -simulate`.
+
+## 2024-05-23 - Binary File Verification
+**Learning:** Modifying binary files (PNGs) requires careful verification.
+**Action:** Always verify binary file integrity using the `file` command after optimization to ensure valid output before submission. The "Add comments" requirement does not apply to binary files.

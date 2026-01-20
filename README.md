@@ -13,6 +13,15 @@ Instructions
 * Download the file of your choice by clicking on it, then clicking the "Raw" button above the picture at the right. Then save the image to your computer by pressing Ctrl+S on your keyboard. 
 * When using these textures in your project, you must give credit to me, rioforce, for the textures. See license below.
 
+Performance
+===========
+
+To ensure fast downloads and efficient storage, large PNG assets in this repository should be optimized using tools like `optipng`.
+
+**Optimization Standards:**
+* Tools: `optipng` (e.g., `optipng -o7` for maximum compression)
+* Goal: Lossless compression to reduce file size without affecting visual quality.
+
 Support
 =======
 

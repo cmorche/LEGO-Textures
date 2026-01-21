@@ -4,3 +4,6 @@
 ## 2025-12-31 - [Asset Optimization]
 **Learning:** This repository consists entirely of static assets with no build system. Performance gains come exclusively from optimizing these assets (e.g., lossless PNG compression) rather than code changes.
 **Action:** Use tools like `optipng` to reduce file sizes without quality loss. Handle filenames with spaces carefully in shell commands.
+## 2025-01-21 - [Zopfli Superiority]
+**Learning:** `optipng -o7` reported `Ninjago/Slithra/Slithra Head.png` as already optimized, but `zopflipng` reduced it by another ~3.8% (15KB). Standard tools like `optipng` may plateau on already-processed assets.
+**Action:** When `optipng` finds no gains on large assets, try `zopflipng` or `advpng` for deeper compression.

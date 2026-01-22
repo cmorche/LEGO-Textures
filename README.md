@@ -13,6 +13,16 @@ Instructions
 * Download the file of your choice by clicking on it, then clicking the "Raw" button above the picture at the right. Then save the image to your computer by pressing Ctrl+S on your keyboard. 
 * When using these textures in your project, you must give credit to me, rioforce, for the textures. See license below.
 
+Performance
+===========
+
+This repository uses optimized PNG assets to ensure fast download times and reduced repository size. Large assets are compressed using `zopflipng`, which provides superior compression compared to standard tools.
+
+Recent optimizations:
+* `Ninjago/Slithra/Slithra Head.png`: Reduced by ~16KB
+* `LEGO Friends/Olivia/Olivia_Advent.png`: Reduced by ~8KB
+* `LEGO Minifigures/Series 9/Mermaid/Mermaid Torso SVG.png`: Reduced by ~15KB
+
 Support
 =======
 

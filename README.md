@@ -22,6 +22,13 @@ https://github.com/rioforce/LEGO-Textures/issues/new
 
 NOTE: Not all requests will be granted.
 
+Performance
+===========
+
+To ensure fast download speeds and efficient storage, large PNG assets in this repository are optimized using `zopflipng`. This tool provides superior lossless compression compared to standard tools like `optipng`, often reducing file sizes by an additional 5-10% without any loss in quality.
+
+For example, `header.png` was reduced by ~8% (23KB) using `zopflipng`.
+
 License
 =======
 
